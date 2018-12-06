@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Round_Way>
+    <Round_way>Round Trip</Round_way>
+    <Round_XPath>//*[@id="searchWidgetNew"]/div[2]/span[1]/label</Round_XPath>
+</Round_Way>
+
+<One_Way>
+      <One_Way> One Way</One_Way>
+      <One_Xpath>//*[@id="gi_oneway_label"]</One_Xpath>
+</One_Way>
+
+<from>
+<F_name>From</F_name>
+  <F_Xpath>//*[@id="gosuggest_inputSrc"]</F_Xpath>
+  <F_value>Pune</F_value>
+</from>
+
+
+<To> 
+<T_name>To</T_name>
+   <T_Xpath>//*[@id="gosuggest_inputDest"]</T_Xpath>
+   <T_value>Delhi</T_value>
+</To>
+
+
+<Departure>
+	<D_name>Departure_Date</D_name>
+    <D_Xpath>//*[@id="searchWidgetCommon"]/div/div[3]/div[1]/div[1]/div/input</D_Xpath>
+    <D_value>Thu, 13 Dec</D_value>
+</Departure>
+
+
+<Return>  
+<R_name>Return_Date</R_name>
+   <R_Date>//*[@class="form-control inputTxtLarge widgetCalenderTxt"[1]</R_Date>
+   <R_value>Sat, 15 Dec</R_value>
+</Return>
+
+
+<Traveller> 
+    <Travel_name>Traveller</Travel_name>
+    <Travel_XPath>//*[@id="pax_label"]
+        <Adult>
+           <Adult_name>Adults</Adult_name>
+           <Adult_plus_XPath>//*[@id="adultPaxPlus"]</Adult_plus_XPath>
+          
+         </Adult>
+            <Children>
+                 <Child_name> Children</Child_name>
+                 <Child_plus_Xpath>//*[@id="childPaxPlus"]</Child_plus_Xpath>
+            </Children>
+    </Travel_XPath>
+      </Traveller>
+              
+              
+              <Class>
+                   <Class_name>Class</Class_name>
+                   <Class_Xpath>//*[@id="gi_class"]</Class_Xpath>
+                      <Class_Data>1</Class_Data>
+              </Class>
+              
+              
+           <Get_Set_Go>
+                 <Get_Set_NAme>Get Set Go</Get_Set_NAme>
+                 <Get_Set_Xpath>//*[@id="gi_search_btn"]</Get_Set_Xpath>
+           </Get_Set_Go>
+              
+              
+
